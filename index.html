@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Bus-Service</title>
+ <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+</head >
+<body class="">
+ <main class=" mr-4 ml-8 " >
+  <!-- Navbar Starts -->
+  <div class="flex justify-between mt-4  mr-4 ml-8">
+   <h1 class="text-2xl text-black">S-Ticket</h1>
+   <div>
+    
+    <button class="space-x-2 bg-lime-200 hover:bg-lime-200 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center">
+     <span>Bus</span>
+
+     <img class="" src="bus-icon.png" alt="">
+   </button>
+   </div>
+
+  </div>
+  <!-- Navbar Ends -->
+
+  <!-- Bus picture starts -->
+  <div class="relative">
+  
+   <div class="relative space-y-2 mt-4 flex flex-col justify-center text-6xl items-center  h-[70vh] w-full bg-[url(banner.png)] bg-no-repeat bg-contain" style="background-size: 100% 100%">
+    End to End travel with <br> <span class="text-green-500"> S Paribahan</span>
+    <h1 class="text-2xl flex-col text-white">You can t ravel anywhere around the country by using our service. </h1>
+    <br>
+    <button type="button" class=" buy-ticket-button text-gray-900 bg-gradient-to-r from-lime-200 via-lime-400 to-lime-500 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-lime-300 dark:focus:ring-lime-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Buy Ticket</button>
+
+   </div>
+   
+  </div>
+<!--  -->
+<div class="grid grid-cols-3 pl-24 ">
+  <div class="flex space-x-2 bg-white relative bottom-12 h-24 w-72 border-b-4 justify-center items-center rounded-lg">
+    <div>
+      <img src="people.png" alt="">
+    </div>
+    <div>
+      <h1 class="text-4xl">500K+</h1>
+      <h1>Registered users</h1>
+    </div>
+  </div>
+  <div class="flex space-x-2 bg-white relative bottom-12 h-24 w-72 border-b-4 justify-center items-center rounded-lg">
+    <div>
+      <img src="ticket-cupon.png" alt="">
+    </div>
+    <div>
+      <h1 class="text-4xl">1.7 Lacks</h1>
+      <h1>Tickets Sold</h1>
+    </div>
+  </div>
+
+
+  <div class="flex space-x-2 bg-white relative bottom-12 h-24 w-72 border-b-4 justify-center items-center rounded-lg">
+    <div>
+      <img src="stoppage.png" alt="">
+    </div>
+    <div>
+      <h1 class="text-4xl">80K+</h1>
+      <h1>Rental Partners</h1>
+    </div>
+  </div>
+</div>
+<!--  -->
+  <!-- buspicture ends -->
+  
+  <!-- Coupon statrs-->
+  <h1 class="text-4xl flex items-center justify-center mt-24 m-12">Best offers for you</h1>
+  <div class="grid grid-cols-2">
+    
+    <div class="flex mt-4">
+      <div class="flex flex-col items-center  justify-center text-2xl text-black  rounded bg-amber-400 w-96 h-64 relative ">
+       <h1 class="text-4xl">15% OFF</h1>
+       on your next purchase <br>
+       please use by Feb 2024
+   
+      </div>
+      
+   
+      <div class="flex flex-col  justify-center text-2xl text-black  bg-amber-400 rounded w-96 h-64 relative px-24  ">
+       <h1 class="text-4xl">NEW15</h1>
+       Coupon Code
+   
+      </div>
+      <img class="relative right-2/4" src="cupon-devider.png" alt="">
+     </div>
+   
+   
+     <div class="flex mt-4">
+       <div class="flex flex-col items-center  justify-center text-2xl text-black rounded  bg-pink-400 w-96 h-64 relative ">
+        <h1 class="text-4xl">15% OFF</h1>
+        on your next purchase <br>
+        please use by Feb 2024
+    
+       </div>
+       
+    
+       <div class="flex flex-col  justify-center text-2xl text-black  bg-pink-400 w-96 rounded h-64 relative px-24  ">
+        <h1 class="text-4xl">Couple 20</h1>
+        Coupon Code
+    
+       </div>
+       <img class="relative right-2/4" src="cupon-devider.png" alt="">
+      </div>
+    
+  </div>
+  <div class="flex justify-center items-center mt-4">
+    <button type="button" class="text-gray-900 bg-gradient-to-r from-lime-200 via-lime-400 to-lime-500 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-lime-300 dark:focus:ring-lime-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">See all offers</button>
+  
+  </div>
+  
+  <!-- coupon ends -->
+  <div id="ph-paribahan-section" class="bg-stone-200 rounded h-1435 w-140">
+    <div class="mt-24 p-24 flex flex-col justify-center items-center">
+      <h1 class="text-4xl">P.H Paribahan</h1> 
+      
+      <h1>Yes, you can run any teset and view the results directly withing our app. </h1>
+    </div>
+
+
+    <div>
+
+      <div class="flex m-4">
+        <div class=" p-4 text-2xl text-black  rounded bg-stone-300 w-full h-96 relative ">
+          <div class="flex justify-between w-full h-24">
+            <div class="flex">
+
+              <img class="h-16" src="bus-logo.png" alt="">
+              <div class="pl-4">
+                <h1>Green Line Paribahan</h1>
+                <h1>Coach-009-WEB | AC Business</h1>
+              </div>
+            </div>
+            <div class="flex items-center  ">
+              <button class="space-x-2 bg-lime-200 hover:bg-lime-200 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center">
+                <img class="" src="seat-green.png" alt="">
+                
+                <h1><span id="total">50</span> seats left</h1>
+           
+                
+              </button>
+            </div>
+
+          </div>
+          <div class="bg-white mt-4 p-4 rounded">
+            <div class="flex justify-between rounded">
+              <h1>Route</h1>
+              <h1>Dhaka-Sylhet</h1>
+            </div>
+            <hr class="my-4  border-t border-black border-dotted">
+            <div class="flex justify-between rounded">
+              <h1>Departure Time</h1>
+              <h1>9:00pm</h1>
+            </div>
+            <hr class="my-4  border-t border-black border-dotted">
+            <div class="flex grid grid-cols-3 space-x-4">
+              <h1 class="bg-stone-300 h-12 flex items-center rounded p-4">Boarding-Laxmipur</h1>
+              <h1 class="bg-stone-300 h-12 flex items-center rounded p-4">Dropping-Bogra</h1>
+              <h1 class="bg-stone-300 h-12 flex items-center rounded p-4">Est. Time - 11hrs</h1>
+            </div>
+          </div>
+          
+
+
+
+
+        </div>
+        <hr>
+        
+        
+     
+        <div class="flex flex-col  justify-center text-2xl text-black  bg-stone-300 rounded w-96 h-96 relative px-24  ">
+          <img src="fare.png" class="h-16 w-16"  alt="">
+         <h1 class="text-2xl">550 Taka</h1>
+         Bus Fee
+     
+        </div>
+        <img class="relative right-1/4 h-96" src="info-devider.png" alt="">
+       </div>
+
+       <!-- Main JS part -->
+       <div class=" w-1170 h-3234 bg-stone-300 mt-24 p-4 mr-20 ml-4 bg-pink-300">
+        <div class="grid grid-cols-2">
+         <!-- 1st col -->
+          <div>
+            <div class="flex  flex-col justify-between space-x-2">
+              <h1 class=" p-4 text-4xl">Select your seats</h1>
+              <hr class="my-4  border-t border-black border-dotted">
+
+              <div class="flex justify-between">
+                <div class="flex">
+                  <img src="seat-gray.png" alt="">
+                  <h1>Available seats</h1>
+                  
+                </div>
+                <div class="flex">
+                  <img src="seat-green-filled.png" alt="">
+                  <h1>Selected</h1>
+                </div>
+
+              </div>
+              <hr class="my-4  border-t border-black border-dotted">
+              
+              
+  
+            </div>
+
+
+            
+  
+  
+            <!-- seat starts -->
+            <div class="grid grid-rows-5 space-y-4 ">
+              <!-- 1ST -->
+              <div class="flex justify-between">
+                <button>A</button>
+                <button onclick="add(this)" class="btn w-24">A1</button>
+                <button onclick="add(this)" class="btn w-24">
+                  A2
+                </button>
+                <button onclick="add(this)" class="btn w-24">
+                  A3
+                </button>
+                <button  onclick="add(this)" class="btn w-24">
+                  A4
+                </button>
+              </div>
+  
+              <!-- 2ND -->
+              <div class="flex justify-between">
+                <button>B</button>
+                <button  onclick="add(this)" class="btn w-24">B1</button>
+                <button onclick="add(this)" class="btn w-24">
+                  B2
+                </button>
+                <button  onclick="add(this)" class="btn w-24">
+                  B3
+                </button>
+                <button  onclick="add(this)" class="btn w-24">
+                  B4
+                </button>
+              </div>
+  
+              <!-- 3RD -->
+              <div class="flex justify-between">
+                <button>C</button>
+                <button  onclick="add(this)" class="btn w-24">C1</button>
+                <button onclick="add(this)" class="btn w-24">
+                  C2
+                </button>
+                <button  onclick="add(this)" class="btn w-24">
+                  C3
+                </button>
+                <button  onclick="add(this)" class="btn w-24">
+                  C4
+                </button>
+              </div>
+  
+              <!-- 4TH -->
+              <div class="flex justify-between">
+                <button>A</button>
+                <button class="btn w-24">A1</button>
+                <button class="btn w-24">
+                  A2
+                </button>
+                <button class="btn w-24">
+                  A3
+                </button>
+                <button class="btn w-24">
+                  A4
+                </button>
+              </div>
+  
+              <!-- 5TH -->
+              <div class="flex justify-between">
+                <button>A</button>
+                <button class="btn w-24">A1</button>
+                <button class="btn w-24">
+                  A2
+                </button>
+                <button class="btn w-24">
+                  A3
+                </button>
+                <button class="btn w-24">
+                  A4
+                </button>
+              </div>
+
+          </div>
+          
+
+
+          </div>
+
+          <!-- right side -->
+          
+          <div class="m-12">
+            <div class=>
+              <h1>
+                <h1 class="text-2xl">Select your seat</h1>
+                <hr class="my-4  border-t border-black border-dotted">
+              </h1>
+            </div>
+            <div class="mt-12 bg-white rounded p-4">
+              <div id="apnd" class="grid grid-cols-3 flex items-center">
+                <h1>Seat <span id="seat-selected" class="btn bg-lime-300">0</span></h1>
+                <h1>Class</h1>
+                <h1>Price</h1>
+              </div>
+              <hr class="my-4  border-t border-black border-dotted">
+              <!-- discount -->
+              <div class="flex flex-col justify-between">
+                <div class="flex justify-between">
+                  <h1>Total price</h1>
+                  <h1 >BDT <span id="n-grand">0</span>  </h1>
+                </div>
+                <div id="discount" class="flex justify-between">
+
+                </div>
+
+                <div class="mt-4" id="app" >
+                  <input type="text" placeholder="Any coupon?" id="inp" class="input input-bordered w-full max-w-xs" />
+                  <button onclick="coupon()" id="btn-1" class="btn" disabled>APPLY</button>
+                </div>
+                <div class="flex justify-between mt-4">
+                  <h1 >Grand Total</h1>
+                  <h1>BDT <span id="grand">0</span> </h1>
+                </div>
+
+              </div>
+            </div>
+
+            <!-- FORM -->
+            <div>
+              <label class="form-control">
+                <div class="label">
+                  <span class="label-text text-2xl mt-4">What is your name?</span>     
+                </div>
+                <input type="text" placeholder="Type here" class="input input-bordered w-full " />
+
+              </label>
+
+              <label class="form-control">
+                <div class="label">
+                  <span class="label-text text-2xl mt-4">Phone number</span>     
+                </div>
+                <input type="text" placeholder="Type here" class="input input-bordered" id="phn" />
+
+              </label>
+
+              <label class="form-control ">
+                <div class="label">
+                  <span class="label-text text-2xl mt-4">Email ID</span>     
+                </div>
+                <input type="text" placeholder="Type here" class="input input-bordered " />
+
+              </label>
+
+              <!-- <button class="btn btn-success w-full mt-4" id="next" disabled>NEXT</button> -->
+
+              <button class="btn btn-success w-full mt-4" id="next" disabled onclick="my_modal_3.showModal()">NEXT</button>
+<dialog id="my_modal_3" class="modal">
+  <div class="modal-box">
+    <form method="dialog">
+      <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
+    </form>
+    <div class="flex flex-col justify-center items-center space-y-4">
+      <img class="h-24 w-24" src="success.png" alt="">
+      <h1 class="text-green-500">SUCCESS</h1>
+      <h1>Thank you for Booking Our Bus Seats. <br></h1>
+      <h1> We are working hard to find the best service and deals for you.</h1>
+      <h1>Shortly you will find a confirmation in your email.</h1>
+
+      <button class="btn btn-success">Continue</button>
+
+    </div>
+    
+    
+  </div>
+</dialog>
+
+            </div>
+            
+
+          </div>
+        </div>
+
+        
+
+
+
+       </div>
+     <!-- This hr is outside the previous div -->
+    
+
+       <!-- Main JS part ends -->
+
+     
+
+    </div>
+    <div></div>
+</div>
+
+
+ </main>
+ <script>
+  const selected = document.getElementById('seat-selected');
+  const total = document.getElementById("total");
+  const apnd = document.getElementById("apnd");
+  const total_price = document.getElementById("n-grand");
+  const grand = document.getElementById("grand");
+  const inp = document.getElementById("inp");
+  
+  const apply = document.getElementById("btn-1");
+  const phn = document.getElementById("phn");
+  
+  let no_of_tickets = 0;
+  let total_cost = 0
+
+  function add(button) {
+    no_of_tickets += 1;
+    if (no_of_tickets < 5) {
+      button.classList.add('bg-green-500');
+      selected.innerText = no_of_tickets;
+      total.innerText = 50 - no_of_tickets;
+      console.log((phn.value.length))
+
+      // Create a div to wrap the dynamically generated content
+
+
+      // Create and append the Seat, Class, and Price headings
+      const seatHeading = document.createElement('h1');
+      seatHeading.innerText = button.innerText;
+
+      const classHeading = document.createElement('h1');
+      classHeading.innerText = 'Economy';
+
+      const priceHeading = document.createElement('h1');
+      priceHeading.innerText = 550;
+
+      total_cost += 550
+
+      total_price.innerText = total_cost
+      grand.innerText = total_cost
+
+      // Append the headings to the div
+      apnd.appendChild(seatHeading);
+      apnd.appendChild(classHeading);
+      apnd.appendChild(priceHeading);
+
+      // Append the div to the apnd section
+      
+    }
+
+    if(no_of_tickets == 4){
+      apply.disabled = false
+    }
+    enableNextButton()
+
+    if(no_of_tickets>4){
+      alert("Can't buy more than 4 tickets");
+    }
+  }
+
+  function coupon(){
+    console.log(inp.value)
+    if(inp.value == 'NEW15'){
+      
+      discount = total_cost-(total_cost*(15/100))
+      discount_amount = (total_cost*(15/100))
+      grand.innerText = discount
+      const h2 = document.createElement('h1');
+      h2.innerText = 'Discount'
+      
+
+      const h1 = document.createElement('h1');
+      h1.innerText = discount_amount
+      const element =document.getElementById('discount')
+      element.appendChild(h2)
+      element.appendChild(h1) 
+      const buttonElement = document.getElementById('app');
+      buttonElement.hidden = true;
+
+    }
+    else if(inp.value == 'Couple 20' ){
+      discount = total_cost-(total_cost*(20/100))
+      discount_amount = (total_cost*(20/100))
+      grand.innerText = discount
+      const h2 = document.createElement('h1');
+      h2.innerText = 'Discount'
+      
+
+      const h1 = document.createElement('h1');
+      h1.innerText = discount_amount
+      const element =document.getElementById('discount')
+      element.appendChild(h2)
+      element.appendChild(h1) 
+      const buttonElement = document.getElementById('app');
+      buttonElement.hidden = true;
+
+    }
+    else{
+      alert("Invalid coupon code. Please enter a valid coupon code.");
+    }
+
+
+  }
+  function enableNextButton() {
+    
+    const next = document.getElementById("next");
+    if (no_of_tickets >= 1 && phn.value.length > 10) {
+      next.disabled = false;
+    } else {
+      next.disabled = true;
+    }
+  }
+
+  phn.addEventListener('input', enableNextButton);
+
+  function scrollToPHParibahan() {
+    const phParibahanSection = document.getElementById("ph-paribahan-section");
+    phParibahanSection.scrollIntoView();
+  }
+
+  // Event listener for Buy Ticket button click
+  const buyTicketButton = document.querySelector(".buy-ticket-button");
+  buyTicketButton.addEventListener("click", scrollToPHParibahan);
+
+</script>
+
+</body>
+</html>
